@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>مستشفى الشفـاء</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/JannaLTRegular.css">
 </head>
 <body>
     
@@ -27,9 +26,9 @@
 
         <?php
             $host = "localhost";
-            $user = "root";
-            $password = "pass123";
-            $dbName = "alshifaa_hospital";
+            $user = "";
+            $password = "";
+            $dbName = "";
 
             $conn = mysqli_connect($host, $user, $password, $dbName);
 
